@@ -24,7 +24,6 @@ After reviewing his Notebook, we come up with some observations and propose some
 The Flight Delay Prediction API is designed to accept flight details as input and returns the predicted delay status (probability of the flight being delayed). The API will be containerized and deployed on Google Cloud Run or we can run it locally to try it out using Docker.
 
 ## Model Performance Comparison
-TODO: fix metrics
 
 These are the performance metrics for the different models that were trained:
 
