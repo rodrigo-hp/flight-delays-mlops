@@ -20,7 +20,7 @@ COPY ./app/app.py /app
 COPY ./app/flight_delays_lgb_model.pkl /app
 
 # Expose the app port
-EXPOSE 80
+EXPOSE 8080
 
 # Run command
-CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
